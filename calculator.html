@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Scientific-Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <table class="tableclass" align="center">
+        <tr>
+            <td colspan="6" id='col1'><input type="text" class="textview" id="textfield" value="0" size=""></td>
+        </tr>
+        <tr class="hidden" id='1'>
+            <td><button onclick="sin()">sin</button></td>
+            <td><button onclick="cos()">cos</button></td>
+            <td><button onclick="tan()">tan</button></td>
+            <td><button onclick="log()">log</button></td>
+            <td><button onclick="ln()">ln</button></td>
+
+        </tr>
+        <tr class="hidden" id='2'>
+            <td><button onclick="display('(')">(</button></td>
+            <td><button onclick="display(')')">)</button></td>
+            <td><button onclick="sqrt()">&#8730</button></td>
+            <td><button onclick="square()">x<sup>2</sup></button></td>
+            <td><button onclick="cube()">x<sup>3</sup></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="clearText()">AC</button></td>
+            <td><button onclick="deleteText()">DEL</button></td>
+            <td><button onclick="display('%')">%</button></td>
+            <td><button onclick="display('/')">/</button></td>
+            <td class="hidden" id=3><button onclick="inverse()">x<sup>-1</sup></button></td>
+
+        </tr>
+        <tr>
+            <td><button onclick="display('7')">7</button></td>
+            <td><button onclick="display('8')">8</button></td>
+            <td><button onclick="display('9')">9</button></td>
+            <td><button onclick="display('*')">&times;</button></td>
+            <td class="hidden" id=4><button onclick="factorial()">x!</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display('4')">4</button></td>
+            <td><button onclick="display('5')">5</button></td>
+            <td><button onclick="display('6')">6</button></td>
+            <td><button onclick="display('-')">&minus;</button></td>
+            <td class="hidden" id=5><button onclick="pi()">&pi;</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display('1')">1</button></td>
+            <td><button onclick="display('2')">2</button></td>
+            <td><button onclick="display('3')">3</button></td>
+            <td><button onclick="display('+')">+</button></td>
+            <td class="hidden" id=6><button onclick="exp()">e</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="switchCalc()"><img src="./calc.png" height="20" width="20"></button></td>
+            <td><button onclick="display('0')">0</button></td>
+            <td><button onclick="display('.')"><b>.</b></button></td>
+            <td><button onclick="equalTo()">=</button></td>
+            <td class="hidden" id="7"><button onclick="answer()">Ans</button></td>
+        </tr>
+
+    </table>
+    <br>
+    <br>
+    <p id="ptag">Tap on <img src="./calc.png" height="20" width="20"> to switch to scientific calculator and simple calculator.
+    </p>
+</body>
+<script src="./script.js"></script>
+
+</html>

@@ -1,0 +1,28 @@
+button {
+    width: 50px;
+    height: 50px;
+    background: grey;
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-image: linear-gradient(red, blue);
+}
+
+.textview {
+    width: "115px";
+    font-size: 22px;
+}
+
+.tableclass {
+    color: grey;
+}
+
+#ptag {
+    color: aliceblue;
+}
