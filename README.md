@@ -4,7 +4,7 @@
 
 #### It has a toggle button to switch between scientific and simple calculator.
 
-[Click Here] (https://srivatsajoshi.github.io/ScientificCalculator/) for live demo
+[Click Here](https://srivatsajoshi.github.io/ScientificCalculator/) for live demo
 
 <div style="text-align:center"><img src="./sci.png"/></div>
 <div style="text-align:center"><img src="./simp.png" /></div>
